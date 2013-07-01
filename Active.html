@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Activation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/flat-ui.css" rel="stylesheet">
+
+    <style type="text/css">
+      body
+	  {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	  .ImageBox
+	  {
+		border:1px solid red;
+		width: 150px;
+		height: 115px;
+		float: left;
+	  }
+	  .font_set
+	  {
+		  font-family:"Times New Roman", Times, serif;
+	  }
+	  #color2
+			{
+				margin:0px;
+			}
+    </style>
+    
+  </head>
+
+  <body>
+	
+	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="brand" style="text-decoration:none;" href="home.html">HOME</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+            	<li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Auction<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="new_auction.html">New Auction</a></li>
+                  		<li class="divider"></li>
+                  		<li class="nav-header">Recent Auctions</li>
+                  		<li><a href="#">3G</a></li>
+                  		<li><a href="#">4G</a></li>
+                	</ul>
+              	</li>
+                
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Bider<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="#">GP</a></li>
+                        <li><a href="#">Banglalink</a></li>
+                        <li><a href="#">Airtel</a></li>
+                        <li><a href="#">Teletalk</a></li>
+                  		<li class="divider"></li>
+                  		<li class="nav-header">create new</li>
+                  		<li><a href="newBider.html">New Bider</a></li>
+                	</ul>
+              	</li>
+                
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="newProduct.html">New Product</a></li>
+                  		<li class="nav-header">create new</li>
+                  		<li><a href="#">Bider 1</a></li>
+                        <li><a href="#">Bider 2</a></li>
+                	</ul>
+              	</li>
+              
+            </ul>
+            <form class="navbar-form pull-right inline">
+            	<table>
+                	<tr>
+                    	<td><i class="icon-user icon-white"></i></td>
+                        <td>
+                        <ul class="nav nav-pills">
+  							<li class="dropdown">
+    							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        						User
+        						<b class="caret"></b>
+      							</a>
+    							<ul class="dropdown-menu">
+      								<li><a href="profile.html">Profile</a></li>
+                                	<li><a href="Login_new.html">Logout</a></li>
+    							</ul>
+  							</li>
+						</ul>
+                        </td>
+                    </tr>
+                </table>
+           </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	
+    <div class="container">
+    
+    	<h3 style="border:double; border-color:#006">ACTIVE AUCTION</h3>
+		
+        <br>
+        
+        <div class="span12" style="margin-left:-3px;">
+        	
+            <div class="span3">
+            	<label><h4 class="pull-left" style="margin-left:-25px;">AUCTION LIST : </h4></label>
+            </div>
+            
+            <div class="span8" style="padding-top:5px; margin-left:-125px;">
+                <select class="pull-left">
+                    <option value="3G">Auction For 3G</option>
+                    <option value="3G">Auction For 4G</option>
+                    <option value="3G">Frequency Sell</option>
+                </select>
+           </div>
+         
+        </div>
+ 		 
+        <h5 align="left" style="margin-top:80px;">Summery</h5>
+              
+        <div class="span12" style="border:groove; margin-left:-4px;">
+        	<p>
+            Here will be added the summery of the selected option on the dropdown box. Here will be added the summery of the 
+			selected option on the dropdown box. Here will be added the summery of the selected option on the dropdown box. Here 
+			will be added the summery of the selected option on the dropdown box. Here will be added the summery of the selected  
+			option on the dropdown box. Here will be added the summery of the selected option on the dropdown box.
+            </p>
+        </div>
+        
+        <div class="span12" id="color2">
+        	<table class="table table-hover table-bordered">
+            	<caption><h4 class="pull-left">Bider</h4></caption>
+                	<tr>
+                    	<th><p class="font_set" align="center">Bider Namer</p></th>
+                        <th><p class="font_set" align="center">Options</p></th>
+                    </tr>
+                    
+                    <tr>
+                    	<td><label>Grameen Phone</label></td>
+                        <td>
+                        	<div class="inline">
+                            
+                            	<div align="center" class="row-fluid">
+                                	<input type="button" class="btn btn-primary" value="In">
+                                    &nbsp;&nbsp;
+                                    <input type="button" class="btn btn-primary" value="Active">
+                                    &nbsp;&nbsp;
+                                    <input type="button" class="btn btn-primary" value="Edit">
+                                </div>
+                            
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                    	<td><label>Orascom Telecommunication</label></td>
+                        <td>
+                        	<div class="inline">
+                            
+                            	<div align="center" class="row-fluid">
+                                	<input type="button" class="btn btn-primary" value="In">
+                                    &nbsp;&nbsp;
+                                    <input type="button" class="btn btn-primary" value="Active">
+                                    &nbsp;&nbsp;
+                                    <input type="button" class="btn btn-primary" value="Edit">
+                                </div>
+                            
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                    	<td><label>Aitel Bangladesh</label></td>
+                        <td>
+                        	<div class="inline">
+                            
+                            	<div align="center" class="row-fluid">
+                                	<input type="button" class="btn btn-primary" value="In">
+                                    &nbsp;&nbsp;
+                                    <input type="button" class="btn btn-primary" value="Active">
+                                    &nbsp;&nbsp;
+                                    <input type="button" class="btn btn-primary" value="Edit">
+                                </div>
+                            
+                            </div>
+                        </td>
+                    </tr> 
+            	</table>
+      	</div>
+      
+      <div class="span12" align="center" style="margin-left:-5px;">
+      	<a href="admin_view.html" class="btn btn-primary">Run</a>
+        <br><br>
+      </div>
+	 
+     
+    <!-- Main hero unit for a primary marketing message or call to action -->
+  	 	
+      <hr>
+		
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

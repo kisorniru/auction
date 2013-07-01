@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">	
+	<link href="css/flat-ui.css" rel="stylesheet">
+	
+    <style type="text/css">
+      body
+	  {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="brand" style="text-decoration:none;" href="home.html">HOME</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+            	<li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Auction<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="new_auction.html">New Auction</a></li>
+                  		<li class="divider"></li>
+                  		<li class="nav-header">Recent Auctions</li>
+                  		<li><a href="#">3G</a></li>
+                  		<li><a href="#">4G</a></li>
+                	</ul>
+              	</li>
+                
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Bider<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="#">GP</a></li>
+                        <li><a href="#">Banglalink</a></li>
+                        <li><a href="#">Airtel</a></li>
+                        <li><a href="#">Teletalk</a></li>
+                  		<li class="divider"></li>
+                  		<li class="nav-header">create new</li>
+                  		<li><a href="newBider.html">New Bider</a></li>
+                	</ul>
+              	</li>
+                
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="newProduct.html">New Product</a></li>
+                  		<li class="nav-header">create new</li>
+                  		<li><a href="#">Bider 1</a></li>
+                        <li><a href="#">Bider 2</a></li>
+                	</ul>
+              	</li>
+              
+            </ul>
+            <form class="navbar-form pull-right inline">
+            	<table>
+                	<tr>
+                    	<td><i class="icon-user icon-white"></i></td>
+                        <td>
+                        <ul class="nav nav-pills">
+  							<li class="dropdown">
+    							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        						User
+        						<b class="caret"></b>
+      							</a>
+    							<ul class="dropdown-menu">
+      								<li><a href="profile.html">Profile</a></li>
+                                	<li><a href="Login_new.html">Logout</a></li>
+    							</ul>
+  							</li>
+						</ul>
+                        </td>
+                    </tr>
+                </table>
+           </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+	
+    <div class="span12">
+    
+    	<div class="span3" align="center">
+        	<img src="img/LAP1.png" alt="">
+        </div>
+        
+        <div class="span2" align="center">
+        	<img src="img/LAP2.png" alt="">
+        </div>
+        
+        <div class="span3" align="center">
+        	<img src="img/LAP3.png" alt="">
+        </div>
+        
+        <div class="span3" align="center">
+        	<img src="img/LAP4.png" alt="">
+        </div>
+    
+    </div>
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    	
+    <div style="border:groove; margin-top:200px;">    
+    	<h3>Dashboard</h3>
+        
+        <table class="table table-striped table-hover" style="margin-top:50px;">
+        	<caption class="pull-left"><b>Running Auctions</b></caption>
+            <tr>
+            	<th>Auction ID</th>
+                <th>Location</th>
+                <th>Author</th>
+                <th>Product</th>
+                <th>Winner</th>
+                <th>Detail</th>
+            </tr>
+            
+            <tr>
+            	<td>BTRC - 843</td>
+                <td>Dhaka</td>
+                <td>BTRC</td>
+                <td>3G</td>
+                <td>Teletalk</td>
+                <td><!-- Button to trigger modal -->
+					<a href="#myModal" role="button" class="btn btn-primary" data-toggle="modal">Details</a>
+					<!-- Modal -->
+						<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								
+							<div class="modal-header">
+									
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+										
+									<h3 id="myModalLabel">Auction Details</h3>
+									
+									</div>
+									
+									<div class="modal-body">
+									
+										<div class="span4">
+										
+											<div class="span12">
+												
+												<h4>Current Floor No : </h4>
+												<p> #100 </p>
+												
+											</div>
+											
+											<div class="span12">
+												
+												<h4>Name : </h4>
+												<p>3G Network</p>
+											
+											</div>
+											
+											<div class="span12">
+												
+												<h4>Description: </h4>
+												<p>Blah Bhah Bhah</p>
+											
+											</div>
+											
+											<div class="span12">
+												
+												<h4>Location: </h4>
+												<p>Radison</p>
+											
+											</div>
+											
+											<div class="span12">
+												
+												<h4>Date: </h4>
+												<p>02-02-2013</p>
+											
+											</div>
+											
+										</div>
+										
+                                        <div class="span12" id="color4">
+										
+											<div class="span3">
+												
+												<h4>Biders: </h4>
+											
+											</div>
+											
+											<div class="span9">
+											
+												<p>
+                                                    Grameen Phone,
+                                                    Banglalink,
+                                                	Airtel,
+                                                </p>
+											
+											</div>
+											
+										</div>
+										
+										<div class="span12" id="color4">
+										
+											<div class="span3">
+												
+												<h4>Base Price: </h4>
+											
+											</div>
+											
+											<div class="span9">
+											
+												<p>90 tk</p>
+											
+											</div>
+											
+										</div>
+										
+										<div class="span12" id="color4">
+										
+											<div class="span3">
+												
+												<h4>Total Price : </h4>
+											
+											</div>
+											
+											<div class="span9">
+											
+												<p>102 tk</p>
+											
+											</div>
+											
+										</div>
+										
+										<div class="span12" id="color4">
+										
+											<table class="table table-striped table-hover" style="width:30vw; margin-left:10px;">
+                                            	<caption><b>Bidding Time Detail</b></caption>
+                                            	<tr>
+                                                	<th>Bider Name</th>
+                                                    <th>Bidding time</th>
+                                                </tr>
+                                                <tr>
+                                                	<td>GP</td>
+                                                    <td>1.53 sec</td>
+                                                </tr>
+                                                <tr>
+                                                	<td>Banglalink</td>
+                                                    <td>1.56 sec</td>
+                                                </tr>
+                                                <tr>
+                                                	<td>Airtel</td>
+                                                    <td>1.58 sec</td>
+                                                </tr>
+                                            </table>
+											
+										</div>
+										
+										
+										
+									</div>
+									
+									<div class="modal-footer">
+										
+										<button class="btn btn-info" data-dismiss="modal" aria-hidden="true">Print</button>
+									
+									</div></td>
+            </tr>
+            
+        </table>
+        
+    </div>
+    	 	
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>New Product</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	
+		<link href="css/flat-ui.css" rel="stylesheet">
+    <style type="text/css">
+      body
+	  {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+	  .ImageBox
+	  {
+		border:1px solid red;
+		width: 150px;
+		height: 115px;
+		float: left;
+	  }
+	  .font_set
+	  {
+		  font-family:"Times New Roman", Times, serif;
+	  }
+    </style>
+    
+  </head>
+
+  <body>
+	
+	        <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <a class="brand" style="text-decoration:none;" href="home.html">HOME</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+            	<li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Auction<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="new_auction.html">New Auction</a></li>
+                  		<li class="divider"></li>
+                  		<li class="nav-header">Recent Auctions</li>
+                  		<li><a href="#">3G</a></li>
+                  		<li><a href="#">4G</a></li>
+                	</ul>
+              	</li>
+                
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Bider<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="#">GP</a></li>
+                        <li><a href="#">Banglalink</a></li>
+                        <li><a href="#">Airtel</a></li>
+                        <li><a href="#">Teletalk</a></li>
+                  		<li class="divider"></li>
+                  		<li class="nav-header">create new</li>
+                  		<li><a href="newBider.html">New Bider</a></li>
+                	</ul>
+              	</li>
+                
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Product<b class="caret"></b></a>
+                	<ul class="dropdown-menu">
+                  		<li><a href="newProduct.html">New Product</a></li>
+                  		<li class="nav-header">create new</li>
+                  		<li><a href="#">Bider 1</a></li>
+                        <li><a href="#">Bider 2</a></li>
+                	</ul>
+              	</li>
+              
+            </ul>
+            <form class="navbar-form pull-right inline">
+            	<table>
+                	<tr>
+                    	<td><i class="icon-user icon-white"></i></td>
+                        <td>
+                        <ul class="nav nav-pills">
+  							<li class="dropdown">
+    							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        						User
+        						<b class="caret"></b>
+      							</a>
+    							<ul class="dropdown-menu">
+      								<li><a href="profile.html">Profile</a></li>
+                                	<li><a href="Login_new.html">Logout</a></li>
+    							</ul>
+  							</li>
+						</ul>
+                        </td>
+                    </tr>
+                </table>
+           </form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	
+    <div class="container" align="center">
+    
+    	<h3 style="border:double; border-color:#006">ADD PRODUCT</h3>
+		
+        <div class="row-fluid span12">
+        
+            <div class="span2">
+                
+            </div>
+        
+        	<div class="span8 font_set">        
+        		<table cellpadding="10px">
+        	
+            		<tr>
+            			<td><label for="product_name">Product Name :</label></td>
+                		<td><input type="text" id="p_name" value=""></td>
+            		</tr>
+                    
+                    <tr>
+            			<td><label for="product_id">Product Id :</label></td>
+                		<td><input type="text" id="p_id" value=""></td>
+            		</tr>
+                    
+                    <tr>
+            			<td><label for="product_Quantity">Product Quantity :</label></td>
+                		<td><input type="text" id="p_quatity" value=""></td>
+            		</tr>
+                    
+                    <tr>
+                        <td><label for="b_dis">Description :</label></td>
+                        <td><textarea rows="4" cols="8" ></textarea></td>
+                    </tr>
+            
+	        	</table>
+        
+        		<br>
+        	</div>
+        </div>
+        
+        <div align="center">
+        	<a href="new_auction.html" class="btn btn-primary">Submit</a>
+            <a href="home.html" class="btn btn-primary">Back</a>
+            
+        </div>
+
+    </div>
+    <!-- Main hero unit for a primary marketing message or call to action -->
+  	 	
+      <hr>
+
+      <footer align="center">
+        <p>&copy; Penta Informatics 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
